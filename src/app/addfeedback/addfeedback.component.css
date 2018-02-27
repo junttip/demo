@@ -1,0 +1,21 @@
+.nav.link{
+    cursor:pointer;
+  }
+  button {
+    background: #d7dadd;
+    border: none;
+  }
+  /*hymioden divi */
+  .hymiot{
+    border-radius: 5px;
+    background-color: #d7dadd;
+    padding: 200px
+    
+  }
+  .hom {
+    color: red;
+    font-size: 100px;
+    
+  }
+  
+  

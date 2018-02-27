@@ -1,0 +1,16 @@
+<div class="flex-container" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutAlign.xs="start">
+  <div class="flex-item" fxFlex="50px" fxFlex.xs="40%">
+    <mat-menu #appMenu="matMenu">
+      <button mat-menu-item routerLink="/">Home</button>
+      <button mat-menu-item routerLink="/schedule">Schedule</button>
+      <button mat-menu-item routerLink="/room">Events On Map</button>
+      <button mat-menu-item routerLink="/feedback">Feedback</button>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="appMenu">
+      <i class="material-icons">menu</i>
+    </button>
+  </div>
+  <div class="flex-item" fxFlex>
+    <h1>Future Talent 2019</h1>
+  </div>
+</div>
